@@ -1,0 +1,19 @@
+# Core AI/LLM dependencies
+llama-cpp-python>=0.2.20
+transformers>=4.35.0
+torch>=2.0.0
+accelerate>=0.24.0
+safetensors>=0.4.0
+
+# Web API dependencies
+fastapi>=0.100.0
+uvicorn>=0.24.0
+pydantic>=2.0.0
+python-multipart>=0.0.6
+
+# Web frontend
+streamlit>=1.28.0
+
+# HTTP and utilities
+requests>=2.31.0
+python-dotenv>=1.0.0

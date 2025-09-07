@@ -42,11 +42,16 @@ An AI-powered customer service chatbot for e-commerce platforms that handles ord
 git clone https://github.com/gecortesh/chatbot-ecommerce
 cd chatbot-ecommerce
 ```
-Install dependencies
+2. **Install dependencies**
 ```
 pip install -r requirements.txt
 ```
-Verify setup
+3. **Download Model**
+```
+mkdir -p models
+# Model will be downloaded automatically on first run
+```
+4. **Verify setup**
 ```
 python -c "from src.llm.chatbot import ChatBot; print('Setup complete!')"
 ```
@@ -78,7 +83,7 @@ python web_launcher.py
 #### Access Points:
 - Frontend: http://localhost:8501
 
-## 📋 Business Policies
+## Business Policies
 
 ### Order Cancellation Policy
 

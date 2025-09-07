@@ -88,7 +88,7 @@ IMPORTANT: Never repeat "Function executed with result" or show JSON data to the
         """Initialize llama-cpp model"""
         try:
             # Model file paths to try (in order of preference)
-            model_path = "models/phi-3.5-mini-q4.gguf"
+            model_path = "models/Phi-3.5-mini-instruct-Q4_K_M.gguf"
             
             # Create models directory if it doesn't exist
             os.makedirs("models", exist_ok=True)

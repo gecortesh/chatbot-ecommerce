@@ -49,7 +49,12 @@ pip install -r requirements.txt
 3. **Download Model**
 ```
 mkdir -p models
-# Model will be downloaded automatically on first run
+
+cd models
+
+pip install -U "huggingface_hub[cli]"
+
+huggingface-cli download bartowski/Phi-3.5-mini-instruct-GGUF --include "Phi-3.5-mini-instruct-Q4_K_M.gguf" --local-dir .
 ```
 4. **Verify setup**
 ```

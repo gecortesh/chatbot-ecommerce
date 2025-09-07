@@ -1,0 +1,18 @@
+[
+    {
+        "customer_id": "CUST001",
+        "name": "John Doe",
+        "email": "john@example.com",
+        "address": "123 Main St",
+        "phone": "555-0123",
+        "created_at": "2025-09-01T10:00:00"
+    },
+    {
+        "customer_id": "CUST002",
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "address": "456 Oak Ave",
+        "phone": "555-0456",
+        "created_at": "2025-09-01T11:00:00"
+    }
+]

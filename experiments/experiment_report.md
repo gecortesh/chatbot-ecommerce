@@ -19,6 +19,7 @@ The chatbot system implements a multi-layered architecture combining large langu
 **Design decisions**
 - Mocked API functions: Due capacity constraints, it was decided to mock the API functions
 - JSON file storage: As a first iteration it was decided to use JSON-based customer and order databases instead of a proper database with SQL for example
+- Small LLM: Due to memory constraints, a small LLM model was used for inference, affecting the quality of the responses
 
 **Core Components:**
 - **LLM Engine**: Phi-3.5-mini (3.8B parameter mixture-of-experts model)
